@@ -169,6 +169,8 @@ while (yes =="yes")
         }
 
     }
+    Console.WriteLine("Start over?(yes/no)");
+    yes = Console.ReadLine().ToLower();
 }
 
 
